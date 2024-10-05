@@ -1,0 +1,20 @@
+{
+  "name": "backendsample",
+  "version": "1.0.0",
+  "description": "this is first demo backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "kapil",
+    "node"
+  ],
+  "author": "Ketan Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}

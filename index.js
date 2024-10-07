@@ -13,5 +13,5 @@ app.get('/amazon', (req, res) => {
 
 app.listen(process.env.PORT, () => {
     console.log("congratulationo you made a server")
-    console.log(`this is your back-end port ${port}`)
+    console.log(`this is your back-end port name ${port}`)
 })

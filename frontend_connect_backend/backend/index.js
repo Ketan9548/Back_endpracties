@@ -2,6 +2,11 @@ import express from "express";
 const app = express();
 const port = process.env.PORT || 3000;
 
+
+// but this is bad praties so we do't follow like this
+//distribute the static file in backend folder
+// app.use(express.static('dist'))
+
 app.get("/", (req, res) => {
   res.send("Server is ready");
 });

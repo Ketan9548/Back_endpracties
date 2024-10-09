@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "real time backend exaple praties",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon scr/index.js"
   },
   "keywords": [
     "ketan",
     "praties"
   ],
   "author": "Ketan Chauhan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }

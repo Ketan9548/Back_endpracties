@@ -1,0 +1,15 @@
+{
+  "name": "realtimebackendproject",
+  "version": "1.0.0",
+  "description": "real time backend exaple praties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ketan",
+    "praties"
+  ],
+  "author": "Ketan Chauhan",
+  "license": "ISC"
+}

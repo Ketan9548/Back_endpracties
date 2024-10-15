@@ -1,13 +1,21 @@
 // require('dotenv').config({path:'./env'})
 import dontenv from 'dotenv'
 import ConnectedBD from './db/index.js'
+import app from  './app.js'
 
 dontenv.config({
     path:'./env'
 })
 
 ConnectedBD()
-
+.then(()=>{
+  app.listen(process.env.PORT || 8000, ()=>{
+    console.log(`😊😊😊 Server is running posrt number ${process.env.PORT}`);
+  })
+})
+.catch((err)=>{
+  console.log("Mongos Db connection faield !!! ",err)
+})
 
 
 
